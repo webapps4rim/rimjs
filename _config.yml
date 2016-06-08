@@ -1,0 +1,32 @@
+---
+title: RimJs
+timezone: UTC
+collections:
+  cities:
+    title: Cities
+    output: true
+  events:
+    title: Events
+    output: true
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+  wilayas:
+    title: Wilayas
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/posts/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+permalink: pretty
